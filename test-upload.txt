@@ -1,0 +1,19 @@
+Test meeting transcript
+
+This is a simple test file to verify that the file upload functionality is working correctly.
+
+Meeting participants:
+- John Doe
+- Jane Smith
+
+Discussion points:
+- Project status update
+- Next steps planning
+- Resource allocation
+
+Action items:
+- Complete phase 1 by next week
+- Schedule follow-up meeting
+- Send summary to stakeholders
+
+End of test transcript.

@@ -1,0 +1,42 @@
+{
+  "name": "ai-meeting-summarizer",
+  "version": "1.0.0",
+  "description": "AI Meeting Notes Summarizer & Sharer - Full-stack application",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm start --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "setup": "npm run install:all && echo 'Setup complete! Please configure your .env files.'",
+    "test:backend": "npm test --prefix backend",
+    "test:frontend": "npm test --prefix frontend"
+  },
+  "keywords": [
+    "ai",
+    "meeting",
+    "summary",
+    "openai",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/ai-meeting-summarizer.git"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
